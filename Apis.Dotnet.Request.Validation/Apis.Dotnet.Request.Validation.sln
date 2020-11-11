@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apis.Dotnet.Request.Validation", "Apis.Dotnet.Request.Validation\Apis.Dotnet.Request.Validation.csproj", "{82F3BF9B-5724-46A0-B4E4-F302C5A9CB7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apis.Dotnet.Request.Validation.UnitTest", "..\Apis.Dotnet.Request.Validation.UnitTest\Apis.Dotnet.Request.Validation.UnitTest.csproj", "{F89D86AC-5C26-4374-AD22-16FA04FDCCE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82F3BF9B-5724-46A0-B4E4-F302C5A9CB7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F3BF9B-5724-46A0-B4E4-F302C5A9CB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F3BF9B-5724-46A0-B4E4-F302C5A9CB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F3BF9B-5724-46A0-B4E4-F302C5A9CB7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F89D86AC-5C26-4374-AD22-16FA04FDCCE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F89D86AC-5C26-4374-AD22-16FA04FDCCE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F89D86AC-5C26-4374-AD22-16FA04FDCCE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F89D86AC-5C26-4374-AD22-16FA04FDCCE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E14CD346-48BB-4E44-8A87-CE00A2DC3AE3}
+	EndGlobalSection
+EndGlobal
