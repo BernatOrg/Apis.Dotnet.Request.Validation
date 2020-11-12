@@ -25,4 +25,4 @@ jobs:
       working-directory: ./Apis.Dotnet.Request.Validation/
     - name: Test
       run: dotnet test --no-restore --verbosity normal
-      working-directory: ./Apis.Dotnet.Request.Validation/Apis.Dotnet.Request.Validation.UnitTest/
+      working-directory: ./Apis.Dotnet.Request.Validation.UnitTest/
