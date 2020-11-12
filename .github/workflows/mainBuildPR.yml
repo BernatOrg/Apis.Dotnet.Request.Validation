@@ -1,8 +1,6 @@
-name: Apis.Dotnet.Request.PR
+name: Apis.Dotnet.Request.Validation.PR
 
 on:
-  push:
-    branches: [ main ]
   pull_request:
     branches: [ main ]
 
