@@ -1,4 +1,4 @@
-name: .NET Core
+name: Apis.Dotnet.Request.PR
 
 on:
   push:
