@@ -19,7 +19,9 @@ jobs:
         dotnet-version: 3.1.301
     - name: Install dependencies
       run: dotnet restore
+      working-directory: ./Apis.Dotnet.Request.Validation/
     - name: Build
       run: dotnet build --configuration Release --no-restore
+      working-directory: ./Apis.Dotnet.Request.Validation/
     - name: Test
       run: dotnet test --no-restore --verbosity normal
