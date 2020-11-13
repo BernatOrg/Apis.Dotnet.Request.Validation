@@ -1,1 +1,1 @@
-# Apis.Dotnet.Request.Validation
+Package with the common atributtes for request validations
