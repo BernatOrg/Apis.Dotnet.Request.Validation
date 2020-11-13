@@ -3,6 +3,10 @@
   <PropertyGroup>
     <TargetFrameworks>netcoreapp2.2;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
     <Version>1.1.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Bernat Nosas</Authors>
+    <Product>Apis.Dotnet</Product>
+    <Description>Package with the common atributtes for request validations</Description>
   </PropertyGroup>
 
 </Project>
