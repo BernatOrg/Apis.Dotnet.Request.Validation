@@ -38,32 +38,10 @@ namespace Apis.Dotnet.Request.Validation.Attributes
             Type valueType = value.GetType();
             Type expectedType = typeof(IList);
 
-            if (expectedType.IsAssignableFrom(valueType.GetElementType()))
+            if (value is IList)
             {
-                Type elementType = valueType.GetElementType();
-                switch(Type.GetTypeCode(elementType))
-                {
-                    case TypeCode.Boolean:
-                    return ((List<bool>)value).Count > 0;
-                    
-                    case TypeCode.Int32:
-                    return ((List<int>)value).Count > 0;
-
-                    case TypeCode.Byte:
-                    return ((List<byte>)value).Count > 0;
-
-                    case TypeCode.Decimal:
-                    return ((List<decimal>)value).Count > 0;
-
-                    case TypeCode.Char:
-                    return ((List<char>)value).Count > 0;
-
-                    case TypeCode.String:
-                    return ((List<string>)value).Count > 0;
-
-                    default:
-                    return ((List<object>)value).Count > 0;
-                }
+                IList list = (IList)value;
+                return list.Count > 0;                
             }
             else if (valueType.IsArray)
             {

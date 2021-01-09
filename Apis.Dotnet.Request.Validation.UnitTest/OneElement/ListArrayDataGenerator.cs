@@ -7,10 +7,10 @@ namespace Apis.Dotnet.Request.Validation.UnitTest.OneElement
     {
         private readonly List<object[]> data = new List<object[]>
         {
-            new object[] { null,false},
-            new object[] { new List<string>(),false}
-           //new object[] { new List<string> { "One" },true}
-           //new object[] { new List<string> { "One", "Two", "Three" },true}
+           new object[] { null,false},
+           new object[] { new List<string>(),false},
+           new object[] { new List<string> { "One" },true},
+           new object[] { new List<string> { "One", "Two", "Three" },true}
     };
 
         public IEnumerator<object[]> GetEnumerator() => data.GetEnumerator();
