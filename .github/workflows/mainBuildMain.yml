@@ -1,7 +1,7 @@
 name: Apis.Dotnet.Request.Validation.Main
 
 on:
-  workflow_dispatch:
+  workflow_dispatch
 
 jobs:
   build:
