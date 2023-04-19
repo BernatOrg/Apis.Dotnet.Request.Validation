@@ -1,8 +1,7 @@
 name: Apis.Dotnet.Request.Validation.Main
 
 on:
-  push:
-    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build:
